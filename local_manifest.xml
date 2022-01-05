@@ -9,17 +9,17 @@
   
  <!-- Device Tree -->
  <project path="device/asus/X00TD" 
-          name="android_device_asus_X00TD.git" 
+          name="device_asus_X00TD.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" /> 
  <!-- Common Tree -->
  <project path="device/asus/sdm660-common" 
-          name="android_device_asus_sdm660-common.git" 
+          name="device_asus_sdm660-common.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" />
  <!-- Vendor Tree -->
  <project path="vendor/asus" 
-          name="proprietary_vendor_asus.git" 
+          name="vendor_asus.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" />
  <!-- Kernel Tree -->
