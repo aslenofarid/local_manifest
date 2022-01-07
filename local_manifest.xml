@@ -4,8 +4,6 @@
   <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
- <remote name="nusan"
-         fetch="https://github.com/NusantaraROM-Devices" />
 
  <!-- Trees -->
   
@@ -13,17 +11,17 @@
  <project path="device/asus/X00TD" 
           name="device_asus_X00TD.git" 
           remote="aslenofarid" 
-          revision="twelve" /> 
+          revision="lineage-17.1" /> 
  <!-- Common Tree -->
  <project path="device/asus/sdm660-common" 
           name="device_asus_sdm660-common.git" 
           remote="aslenofarid" 
-          revision="twelve" />
+          revision="lineage-17.1" />
  <!-- Vendor Tree -->
  <project path="vendor/asus" 
           name="vendor_asus_X00TD.git" 
-          remote="nusan" 
-          revision="twelve" />
+          remote="aslenofarid" 
+          revision="lineage-17.1" />
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" 
           name="kernel_asus_sdm660.git" 
