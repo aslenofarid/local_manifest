@@ -8,18 +8,18 @@
  <!-- Trees -->
   
  <!-- Device Tree -->
- <project path="device/asus/X00TD" 
-          name="device_asus_X00TD.git" 
+ <project path="device/asus/X00T" 
+          name="device_asus_X00T" 
           remote="aslenofarid" 
           revision="lineage-17.1" /> 
  <!-- Common Tree -->
- <project path="device/asus/sdm660-common" 
+ <!-- <project path="device/asus/sdm660-common" 
           name="device_asus_sdm660-common.git" 
           remote="aslenofarid" 
-          revision="lineage-17.1" />
+          revision="lineage-17.1" /> -->
  <!-- Vendor Tree -->
  <project path="vendor/asus" 
-          name="proprietary_vendor_asus.git" 
+          name="proprietary_vendor_asus" 
           remote="aslenofarid" 
           revision="lineage-17.1" />
  <!-- Kernel Tree -->
