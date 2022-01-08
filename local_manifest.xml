@@ -18,7 +18,7 @@
           remote="aslenofarid" 
           revision="lineage-17.1" /> -->
  <!-- Vendor Tree -->
- <project path="vendor/asus" 
+ <project path="vendor/asus/X00T" 
           name="proprietary_vendor_asus" 
           remote="aslenofarid" 
           revision="lineage-17.1" />
