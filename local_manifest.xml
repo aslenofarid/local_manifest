@@ -9,7 +9,7 @@
   
  <!-- Device Tree -->
  <project path="device/asus/X00T" 
-          name="device_asus_X00T" 
+          name="device_asus_X00T.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" /> 
  <!-- Common Tree -->
@@ -18,8 +18,8 @@
           remote="aslenofarid" 
           revision="lineage-17.1" /> -->
  <!-- Vendor Tree -->
- <project path="vendor/asus/X00T" 
-          name="proprietary_vendor_asus" 
+ <project path="vendor/asus" 
+          name="proprietary_vendor_asus.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" />
  <!-- Kernel Tree -->
