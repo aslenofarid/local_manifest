@@ -23,9 +23,9 @@
           remote="aslenofarid" 
           revision="lineage-17.1" />
  <!-- Kernel Tree -->
- <project path="kernel/asus/sdm660" 
-          name="kernel_asus_sdm660.git" 
+ <project path="kernel/asus/X00T" 
+          name="kernel_asus_X00T.git" 
           remote="aslenofarid" 
-          revision="master" />
+          revision="lineage-17.1" />
 
 </manifest>
