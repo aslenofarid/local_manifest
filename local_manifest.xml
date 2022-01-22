@@ -4,7 +4,8 @@
   <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
-
+ <remote name="LineageOS"
+         fetch="https://github.com/LineageOS" />
  <!-- Trees -->
   
  <!-- Device Tree -->
@@ -30,5 +31,11 @@
           name="android_kernel_asus_sdm660.git" 
           remote="aslenofarid" 
           revision="17.1" />
+
+<!-- Hals -->
+ <project path="hardware_qcom_audio" 
+          name="android_hardware_qcom_audio.git" 
+          remote="LineageOS" 
+          revision="lineage-17.1" />
 
 </manifest>
