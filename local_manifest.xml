@@ -32,13 +32,13 @@
           remote="aslenofarid" 
           revision="lineage-17.1" />
 
-<!-- Hals -->
+ <!-- Hals -->
  <project path="hardware_qcom_audio" 
           name="android_hardware_qcom_audio.git" 
           remote="LineageOS" 
           revision="lineage-17.1" />
 
-<!-- Remove some project -->
+ <!-- Remove some project -->
  <remove-project name="android_packages_apps_Email" />
 
 
