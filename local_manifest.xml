@@ -38,8 +38,4 @@
           remote="LineageOS" 
           revision="lineage-17.1" />
 
- <!-- Remove some project -->
- <remove-project name="android_packages_apps_Email" />
-
-
 </manifest>
