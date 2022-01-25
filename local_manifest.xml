@@ -40,5 +40,5 @@
 
  <!-- Remove -->
  <remove-project name="LineageOS/android_packages_apps_Email" />
-
+ <remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
 </manifest>
