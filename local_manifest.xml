@@ -4,10 +4,9 @@
   <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
- <remote name="LineageOS"
-         fetch="https://github.com/LineageOS" />
+
  <!-- Trees -->
-  
+
  <!-- Device Tree -->
  <project path="device/asus/X00TD" 
           name="device_asus_X00TD.git" 
