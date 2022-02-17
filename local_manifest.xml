@@ -4,6 +4,8 @@
   <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
+ <remote name="tiktodz"
+         fetch="https://github.com/Tiktodz" />
 
  <!-- Trees -->
 
@@ -26,9 +28,9 @@
           revision="lineage-17.1" />
 
  <!-- Kernel Tree -->
- <project path="kernel/asus/sdm660" 
-          name="kernel_asus_sdm660.git" 
-          remote="aslenofarid" 
-          revision="L302" />
+ <project path="kernel/asus/sdm636" 
+          name="android_kernel_asus_sdm636.git" 
+          remote="tiktodz" 
+          revision="master" />
 
 </manifest>
