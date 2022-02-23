@@ -29,6 +29,6 @@
  <project path="kernel/asus/sdm660" 
           name="kernel_asus_sdm660.git" 
           remote="aslenofarid" 
-          revision="17.1" />
+          revision="lineage-17.1" />
 
 </manifest>
