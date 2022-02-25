@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remotes -->
+ <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
+
+ <remote name="kdrag0n"
+		fetch="https://github.com/kdrag0n" />
 
  <!-- Trees -->
 
@@ -30,5 +33,12 @@
           name="kernel_asus_sdm660.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" />
+
+ <!-- Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" 
+          name="proton-clang.git" 
+          remote="kdrag0n" 
+          revision="master" 
+          clone-depth="1" />
 
 </manifest>
