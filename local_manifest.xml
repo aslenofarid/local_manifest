@@ -35,11 +35,8 @@
           revision="lineage-17.1" />
 
  <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" 
-          name="proton-clang.git" 
-          remote="kdrag0n" 
-          revision="master" 
-          clone-depth="1" />
+<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+
 
  <remove-project name="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
  <remove-project name="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
