@@ -5,8 +5,11 @@
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
 
- <remote name="kdrag0n"
-		fetch="https://github.com/kdrag0n" />
+ <remote name="travarilo"
+         fetch="https://github.com/travarilo" />
+
+ <!-- <remote name="kdrag0n"
+		fetch="https://github.com/kdrag0n" /> -->
 
  <!-- Trees -->
 
@@ -31,25 +34,8 @@
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" 
           name="kernel_asus_sdm660.git" 
-          remote="aslenofarid" 
-          revision="lineage-17.1" />
-
- <!-- Removed -->
- <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
- <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
- <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
- <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
- <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
- <remove-project name="platform/prebuilts/gdb/darwin-x86" />
- <remove-project name="platform/prebuilts/go/darwin-x86" />
- <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
-
- <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" 
-          name="proton-clang" 
-          remote="kdrag0n" 
-          revision="master" 
-          clone-depth="1" />
+          remote="travarilo" 
+          revision="master" />
 
 
 </manifest>
