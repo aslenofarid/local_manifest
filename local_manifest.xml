@@ -34,8 +34,8 @@
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" 
           name="kernel_asus_sdm660.git" 
-          remote="travarilo" 
-          revision="master" />
+          remote="aslenofarid" 
+          revision="lineage-17.1" />
 
 
 </manifest>
