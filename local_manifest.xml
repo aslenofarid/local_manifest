@@ -8,9 +8,6 @@
  <remote name="travarilo"
          fetch="https://github.com/travarilo" />
 
- <remote name="kdrag0n"
-	 fetch="https://github.com/kdrag0n" />
-
  <!-- Trees -->
 
  <!-- Device Tree -->
