@@ -8,6 +8,9 @@
  <remote name="travarilo"
          fetch="https://github.com/travarilo" />
 
+ <remote name="kdrag0n"
+	 fetch="https://github.com/kdrag0n" />
+
  <!-- Trees -->
 
  <!-- Device Tree -->
@@ -31,7 +34,13 @@
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" 
           name="kernel_asus_sdm660.git" 
-          remote="travarilo" 
+          remote="aslenofarid" 
           revision="master" />
+
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" 
+         name="proton-clang" 
+         remote="kdrag0n" 
+         revision="master" 
+         clone-depth="1" />
 
 </manifest>
