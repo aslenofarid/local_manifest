@@ -40,6 +40,5 @@
          revision="master" 
          clone-depth="1" /> -->
 
-<remove-project name="prebuilts/clang/host/linux-x86/clang-proton" />
 
 </manifest>
