@@ -35,7 +35,7 @@
           revision="lineage-17.1" />
 
  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
-
+ <remove-project name="platform/prebuilts/clang/host/linux-x86" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" 
          name="proton-clang" 
          remote="kdrag0n" 
