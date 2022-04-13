@@ -9,7 +9,7 @@
 
  <!-- Device Tree -->
  <project path="device/asus/X00TD" 
-          name="device_asus_X00TD.git" 
+          name="android_device_asus_X00TD.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" /> 
 
