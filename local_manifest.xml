@@ -4,8 +4,7 @@
  <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
- <remote name="RyuujiX"
-         fetch="https://github.com/RyuujiX"
+
  <!-- Trees -->
 
  <!-- Device Tree -->
@@ -29,7 +28,7 @@
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" 
           name="android_kernel_asus_sdm660.git" 
-          remote="RyuujiX" 
+          remote="aslenofarid" 
           revision="r6/hmp" />
 
 
