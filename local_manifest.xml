@@ -32,8 +32,8 @@
           revision="lineage-17.1" />
 
  <!-- Sync hal -->
- <project path="packages/apps/Updater
-          name="android_packages_apps_Updater
+ <project path="packages/apps/Updater"
+          name="android_packages_apps_Updater"
           remote="aslenofarid"
           revision="lineage-17.1" />
 
