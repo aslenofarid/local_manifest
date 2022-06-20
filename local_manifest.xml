@@ -31,14 +31,4 @@
           remote="aslenofarid" 
           revision="lineage-17.1" />
 
-
- <!-- Remove -->
- <remove-project name="LineageOS/android_packages_apps_Updater" />
-
- <!-- Sync -->
- <project path="packages/apps/Updater"
-          name="android_packages_apps_Updater"
-          remote="aslenofarid"
-          revision="lineage-17.1" />
-
 </manifest>
