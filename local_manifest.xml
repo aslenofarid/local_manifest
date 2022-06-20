@@ -9,37 +9,29 @@
 
  <!-- Trees -->
 
-<!----------------------------------------------->
-              <!-- Device Tree -->
-<!----------------------------------------------->
-    <project path="device/asus/X00TD" 
-             name="device_asus_X00TD.git" 
-             remote="aslenofarid" 
-             revision="lineage-17.1" /> 
+ <!-- Device Tree -->
+ <project path="device/asus/X00TD" 
+          name="device_asus_X00TD.git" 
+          remote="aslenofarid" 
+          revision="lineage-17.1" /> 
 
-<!----------------------------------------------->
-              <!-- Common Tree -->
-<!----------------------------------------------->
-    <project path="device/asus/sdm660-common" 
-             name="device_asus_sdm660-common.git" 
-             remote="aslenofarid" 
-             revision="lineage-17.1" />
+ <!-- Common Tree -->
+ <project path="device/asus/sdm660-common" 
+          name="device_asus_sdm660-common.git" 
+          remote="aslenofarid" 
+          revision="lineage-17.1" />
 
-<!----------------------------------------------->
-              <!-- Vendor Tree -->
-<!----------------------------------------------->
-    <project path="vendor/asus" 
-             name="proprietary_vendor_asus.git" 
-             remote="aslenofarid" 
-             revision="lineage-17.1" />
+ <!-- Vendor Tree -->
+ <project path="vendor/asus" 
+          name="proprietary_vendor_asus.git" 
+          remote="aslenofarid" 
+          revision="lineage-17.1" />
 
-<!----------------------------------------------->
-              <!-- Kernel Tree -->
-<!----------------------------------------------->
-    <project path="kernel/asus/sdm660" 
-             name="kernel_asus_sdm660.git" 
-             remote="aslenofarid" 
-             revision="lineage-17.1" />
+ <!-- Kernel Tree -->
+ <project path="kernel/asus/sdm660" 
+          name="kernel_asus_sdm660.git" 
+          remote="aslenofarid" 
+          revision="lineage-17.1" />
 
  <!-- Remove -->
  <remove-project name="LineageOS/android_vendor_lineage" />
@@ -48,9 +40,7 @@
 
 
  <!-- hals -->
- <project name="android_vendor_lineage.git" path="vendor/lineage" remote="lineage" revision="lineage-17.1" />
- <project name="android_frameworks_base.git" path="frameworks/base" remote="lineage" revision="lineage-17.1" />
- <project name="android_packages_apps_Settings.git" path="packages/apps/Settings" remote="lineage" revision="lineage-17.1" />
-
-
+ <project name="android_vendor_lineage" path="vendor/lineage" remote="lineage" revision="lineage-17.1" />
+ <project name="android_frameworks_base" path="frameworks/base" remote="lineage" revision="lineage-17.1" />
+ <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="lineage" revision="lineage-17.1" />
 </manifest>
