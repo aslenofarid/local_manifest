@@ -41,6 +41,6 @@
 
  <!-- hals -->
  <project name="android_vendor_lineage.git" path="vendor/lineage" remote="lineage" revision="lineage-17.1" />
- <project name="android_frameworks_base" path="frameworks/base" remote="lineage" revision="lineage-17.1" />
- <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="lineage" revision="lineage-17.1" />
+ <project name="android_frameworks_base.git" path="frameworks/base" remote="lineage" revision="lineage-17.1" />
+ <project name="android_packages_apps_Settings.git" path="packages/apps/Settings" remote="lineage" revision="lineage-17.1" />
 </manifest>
