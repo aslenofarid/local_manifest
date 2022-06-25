@@ -4,8 +4,6 @@
  <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
- <remote name="kdrag0n"
-	 fetch="https://github.com/kdrag0n" />
 
  <!-- Trees -->
 
@@ -32,11 +30,5 @@
           name="kernel_asus_sdm660.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" />
-
- <!-- remove -->
- <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
-
- <!-- Hals -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
 </manifest>
