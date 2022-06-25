@@ -4,8 +4,6 @@
  <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
- <remote name="lineage"
-         fetch="https://github.com/lineageos" />
 
  <!-- Trees -->
 
@@ -32,16 +30,5 @@
           name="kernel_asus_sdm660.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" />
-
- <!-- Remove -->
- <remove-project name="LineageOS/android_vendor_lineage" />
- <remove-project name="LineageOS/android_frameworks_base" />
- <remove-project name="LineageOS/android_packages_apps_Settings" />
-
- <!-- hals -->
- <project name="android_vendor_lineage" path="vendor/lineage" remote="lineage" revision="lineage-17.1" />
- <project name="android_frameworks_base" path="frameworks/base" remote="lineage" revision="lineage-17.1" />
- <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="lineage" revision="lineage-17.1" />
-
 
 </manifest>
