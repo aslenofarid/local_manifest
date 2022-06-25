@@ -37,13 +37,11 @@
  <remove-project name="LineageOS/android_vendor_lineage" />
  <remove-project name="LineageOS/android_frameworks_base" />
  <remove-project name="LineageOS/android_packages_apps_Settings" />
- <remove-project name="LineageOS/android_build" />
 
  <!-- hals -->
  <project name="android_vendor_lineage" path="vendor/lineage" remote="lineage" revision="lineage-17.1" />
  <project name="android_frameworks_base" path="frameworks/base" remote="lineage" revision="lineage-17.1" />
  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="lineage" revision="lineage-17.1" />
- <project name="android_build" path="build" remote="aslenofarid" revision="lineage-17.1" />
 
 
 </manifest>
