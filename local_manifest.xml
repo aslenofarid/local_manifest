@@ -31,7 +31,7 @@
           remote="aslenofarid" 
           revision="lineage-17.1" />
 
- <-- remove -->
+ <!-- remove -->
  <remove-project name="LineageOS/android_vendor_lineage" />
 
  <!-- hals -->
