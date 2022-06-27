@@ -23,7 +23,7 @@
  <project path="vendor/asus" 
           name="proprietary_vendor_asus.git" 
           remote="aslenofarid" 
-          revision="lineage-17.1" />
+          revision="RR-Q" />
 
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" 
