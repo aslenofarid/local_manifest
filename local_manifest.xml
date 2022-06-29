@@ -11,7 +11,7 @@
  <project path="device/asus/X00TD" 
           name="device_asus_X00TD.git" 
           remote="aslenofarid" 
-          revision="lineage-17.1" /> 
+          revision="icikiwir" /> 
 
  <!-- Common Tree -->
  <project path="device/asus/sdm660-common" 
