@@ -17,13 +17,13 @@
  <project path="device/asus/sdm660-common" 
           name="device_asus_sdm660-common.git" 
           remote="aslenofarid" 
-          revision="RR-Q" />
+          revision="icikiwir" />
 
  <!-- Vendor Tree -->
  <project path="vendor/asus" 
           name="proprietary_vendor_asus.git" 
           remote="aslenofarid" 
-          revision="RR-Q" />
+          revision="icikiwir" />
 
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" 
