@@ -32,7 +32,7 @@
           revision="lineage-17.1" />
 
  <!-- Remove -->
- <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
+ <remove-project name="android_vendor_resurrection" />
 
  <!-- hals -->
  <project name="android_vendor_resurrection" path="vendor/rr" remote="aslenofarid" revision="Q" />
