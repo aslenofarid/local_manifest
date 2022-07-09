@@ -11,19 +11,19 @@
  <project path="device/asus/X00TD" 
           name="device_asus_X00TD.git" 
           remote="aslenofarid" 
-          revision="lineage-17.1" /> 
+          revision="ResurrectionRemix-Q" /> 
 
  <!-- Common Tree -->
  <project path="device/asus/sdm660-common" 
           name="device_asus_sdm660-common.git" 
           remote="aslenofarid" 
-          revision="lineage-17.1" />
+          revision="ResurrectionRemix-Q" />
 
  <!-- Vendor Tree -->
  <project path="vendor/asus" 
           name="proprietary_vendor_asus.git" 
           remote="aslenofarid" 
-          revision="lineage-17.1" />
+          revision="ResurrectionRemix-Q" />
 
  <!-- Kernel Tree -->
  <project path="kernel/asus/sdm660" 
