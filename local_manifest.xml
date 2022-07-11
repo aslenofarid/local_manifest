@@ -33,10 +33,10 @@
 
  <!-- Remove -->
  <remove-project name="android_vendor_resurrection" />
-
+ <remove-project name="packages_services_Telephony" />
 
  <!-- hals -->
  <project name="android_vendor_resurrection" path="vendor/rr" remote="aslenofarid" revision="Q" />
-
+ <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aslenofarid" revision="Q" />
 
 </manifest>
