@@ -4,7 +4,8 @@
  <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
-
+ <remote name="patchX" 
+         fetch="https://github.com/LynzhXPatch" />
  <!-- Trees -->
 
  <!-- Device Tree -->
@@ -37,6 +38,6 @@
 
  <!-- hals -->
  <project name="android_vendor_resurrection" path="vendor/rr" remote="aslenofarid" revision="Q" />
- <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aslenofarid" revision="Q" />
+ <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="patchX" revision="lineage-17.1" />
 
 </manifest>
