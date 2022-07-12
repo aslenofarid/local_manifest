@@ -4,10 +4,6 @@
  <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
- <remote name="LynzhX" 
-         fetch="https://github.com/LynzhXPatch" />
- <remote name="los" 
-         fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
 
@@ -37,16 +33,8 @@
 
  <!-- Remove -->
  <remove-project name="android_vendor_resurrection" />
- <remove-project name="packages_services_Telephony" />
- <remove-project name="packages_services_Telecomm" />
- <remove-project name="frameworks_opt_telephony" />
- <remove-project name="android_frameworks_base" />
 
  <!-- hals -->
  <project name="android_vendor_resurrection" path="vendor/rr" remote="aslenofarid" revision="Q" />
- <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="LynzhX" revision="lineage-17.1" />
- <project name="android_packages_services_Telecomm" path="packages/services/Telecomm" remote="los" revision="lineage-17.1" />
- <project name="android_frameworks_opt_telephony" path="frameworks/opt/Telephony" remote="los" revision="lineage-17.1" />
- <project name="android_frameworks_base" path="frameworks/base" remote="aslenofarid" revision="Q" />
 
 </manifest>
