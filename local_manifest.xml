@@ -39,6 +39,8 @@
  <project name="android_vendor_resurrection" path="vendor/rr" remote="aslenofarid" revision="Q" />
  <project name="android_frameworks_base-1" path="frameworks/base" remote="aslenofarid" revision="Q" />
 
+ <remove-project name="android_build" />
+ <project path="build/make" name="android_build" remote="aslenofarid" />
 
  <remove-project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
  <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" />
