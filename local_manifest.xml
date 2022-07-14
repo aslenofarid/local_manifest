@@ -37,6 +37,6 @@
 
  <!-- hals -->
  <project name="android_vendor_resurrection" path="vendor/rr" remote="aslenofarid" revision="Q" />
- <project name="android_frameworks_base" path="frameworks/base" remote="aslenofarid" revision="Q" />
+ <project name="android_frameworks_base-1" path="frameworks/base" remote="aslenofarid" revision="Q" />
 
 </manifest>
