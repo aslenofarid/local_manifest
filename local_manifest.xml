@@ -37,15 +37,8 @@
  <!-- Remove -->
  <remove-project name="android_vendor_resurrection" />
  <remove-project name="android_frameworks_base" />
- <remove-project name="packages_services_Telephony" />
- <remove-project name="packages_services_Telecomm" />
- <remove-project name="frameworks_opt_telephony" />
 
  <!-- hals -->
  <project name="android_vendor_resurrection" path="vendor/rr" remote="aslenofarid" revision="Q"  />
  <project name="android_frameworks_base-1" path="frameworks/base" remote="aslenofarid" revision="Q" />
- <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="los" revision="lineage-17.1" />
- <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="los" revision="lineage-17.1" />
- <project path="frameworks/opt/Telephony" name="android_frameworks_opt_telephony" remote="los" revision="lineage-17.1" />
-
 </manifest>
