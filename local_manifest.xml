@@ -31,4 +31,6 @@
           remote="aslenofarid" 
           revision="lineage-17.1" />
 
+<remove-project name="LineageOS/android_build_soong" revision="lineage-17.1" />
+
 </manifest>
