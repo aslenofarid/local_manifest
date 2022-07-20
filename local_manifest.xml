@@ -4,8 +4,6 @@
  <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
- <remote name="los"
-         fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
 
@@ -32,12 +30,5 @@
           name="kernel_asus_sdm660.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" />
-
-
- <remove-project name="LineageOS/android_build_soong" revision="lineage-17.1" />
- <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="los" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
- </project>
  
 </manifest>
