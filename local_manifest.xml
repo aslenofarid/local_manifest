@@ -30,5 +30,11 @@
           name="kernel_asus_sdm660.git" 
           remote="aslenofarid" 
           revision="lineage-17.1" />
- 
+
+ <remove-project name="LineageOS/android_build_soong" revision="Q" />
+ <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="aslenofarid" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+ </project>
+
 </manifest>
