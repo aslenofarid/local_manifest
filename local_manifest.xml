@@ -31,10 +31,6 @@
           remote="aslenofarid" 
           revision="lineage-17.1" />
 
- <remove-project name="LineageOS/android_build_soong" revision="lineage-17.1" />
- <project path="build/soong" name="android_build_soong-1" groups="pdk,tradefed" remote="aslenofarid" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
- </project>
+ <remove-project patch="out/soong/.bootstrap"
 
 </manifest>
