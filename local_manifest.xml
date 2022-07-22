@@ -31,6 +31,4 @@
           remote="aslenofarid" 
           revision="lineage-17.1" />
 
- <remove-project patch="out/soong/.bootstrap" />
-
 </manifest>
