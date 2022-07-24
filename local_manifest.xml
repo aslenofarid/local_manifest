@@ -32,6 +32,4 @@
           remote="aslenofarid" 
           revision="lineage-17.1" />
 
- <remove-project name="android" />
- <project patch="android" name="android" remote="los" revision="lineage-17.1" />
 </manifest>
