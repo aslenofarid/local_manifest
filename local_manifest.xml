@@ -4,7 +4,8 @@
  <!-- Remotes -->
  <remote name="aslenofarid" 
          fetch="https://github.com/aslenofarid" />
-
+ <remote name="los"
+         fetch="https://github.com/LineageOS" />
  <!-- Trees -->
 
  <!-- Device Tree -->
@@ -31,4 +32,6 @@
           remote="aslenofarid" 
           revision="lineage-17.1" />
 
+ <remove-project name="android" />
+ <project patch="android" name="android" remote="los" revision="lineage-17.1" />
 </manifest>
