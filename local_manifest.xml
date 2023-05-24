@@ -28,9 +28,9 @@
 
   <!-- kernel tree -->
   <project path="kernel/asus/sdm660"
-           name="kernel_asus_sdm660-1"
+           name="kernel_asus_sdm660"
            remote="aslenofarid"
-           revision="master"/>
+           revision="darkonah"/>
 
   <!-- remove project -->
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
