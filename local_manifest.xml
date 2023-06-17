@@ -30,7 +30,7 @@
   <project path="kernel/asus/sdm660"
            name="kernel_asus_sdm660"
            remote="aslenofarid"
-           revision="darkonah"/>
+           revision="lineage-17.1"/>
 
   <!-- remove project -->
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
