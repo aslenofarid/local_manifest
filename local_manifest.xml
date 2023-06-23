@@ -43,7 +43,7 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="stuff" revision="lineage-17.1-caf-msm8998"/>
 
   <!-- Hals -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="aslenofarid" revision="lineage-17.1"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="stuff" revision="lineage-17.1"/>
   <project path="vendor/lineage" name="android_vendor_lineage" remote="stuff" revision="lineage-17.1"/>
   <project path="system/core" name="android_system_core" remote="stuff" revision="lineage-17.1"/>
 
