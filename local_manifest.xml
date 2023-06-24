@@ -35,6 +35,7 @@
   <!-- remove project -->
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <remove-project name="LineageOS/android_frameworks_base"/>
+  <remove-project name="LineageOS/android_packages_apps_Settings"/>
   <remove-project name="LineageOS/android_vendor_lineage"/>
   <remove-project name="LineageOS/android_system_core"/>
   <remove-project name="LineageOS/android_build"/>
@@ -44,6 +45,7 @@
 
   <!-- Hals -->
   <project path="frameworks/base" name="android_frameworks_base" remote="stuff" revision="lineage-17.1"/>
+  <project path="package/apps/Settings" name="android_packages_apps_Settings" remote="stuff" revision="lineage-17.1"/>
   <project path="vendor/lineage" name="android_vendor_lineage" remote="stuff" revision="lineage-17.1"/>
   <project path="system/core" name="android_system_core" remote="stuff" revision="lineage-17.1"/>
 
