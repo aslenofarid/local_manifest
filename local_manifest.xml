@@ -12,20 +12,14 @@
 <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="aslenofarid" revision="lineage-17.1"/>
 
 <!-- remove project -->
-<remove-project name="LineageOS/android_hardware_qcom_audio"/>
-<remove-project name="LineageOS/android_frameworks_base"/>
-<remove-project name="LineageOS/android_packages_apps_Settings"/>
-<remove-project name="LineageOS/android_vendor_lineage"/>
-<remove-project name="LineageOS/android_system_core"/>
 <remove-project name="LineageOS/android_build"/>
+<remove-project name="LineageOS/android_frameworks_base"/>
+<remove-project name="LineageOS/android_hardware_qcom_audio"/>
+<remove-project name="LineageOS/android_packages_apps_Settings"/>
+<remove-project name="LineageOS/android_system_core"/>
+<remove-project name="LineageOS/android_vendor_lineage"/>
 
 <!-- Hals -->
-<project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="stuff" revision="lineage-17.1-caf-msm8998"/>
-<project path="frameworks/base" name="android_frameworks_base" remote="aslenofarid" revision="lineage-17.1"/>
-<project path="package/apps/Settings" name="android_packages_apps_Settings" remote="aslenofarid" revision="lineage-17.1"/>
-<project path="vendor/lineage" name="android_vendor_lineage" remote="stuff" revision="lineage-17.1"/>
-<project path="system/core" name="android_system_core" remote="stuff" revision="lineage-17.1"/>
-
 <project path="build/make" name="android_build" revision="lineage-17.1" remote="stuff" groups="pdk">
 <copyfile src="core/root.mk" dest="Makefile"/>
 <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
@@ -36,4 +30,9 @@
 <linkfile src="tools" dest="build/tools"/>
 </project>
 
+<project path="frameworks/base" name="android_frameworks_base" remote="aslenofarid" revision="lineage-17.1"/>
+<project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="stuff" revision="lineage-17.1-caf-msm8998"/>
+<project path="package/apps/Settings" name="android_packages_apps_Settings" remote="aslenofarid" revision="lineage-17.1"/>
+<project path="system/core" name="android_system_core" remote="stuff" revision="lineage-17.1"/>
+<project path="vendor/lineage" name="android_vendor_lineage" remote="stuff" revision="lineage-17.1"/>
 </manifest>
