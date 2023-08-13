@@ -2,10 +2,8 @@
 <manifest>
 
 <!-- remote -->
-<remote name="aslenofarid" 
-	fetch="https://github.com/aslenofarid"/>
-<remote name="stuff" 
-	fetch="https://github.com/AslenoLineageStuff"/>
+<remote name="aslenofarid" fetch="https://github.com/aslenofarid"/>
+<remote name="stuff" fetch="https://github.com/AslenoLineageStuff"/>
 
 <!-- tree -->
 <project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="lineage-17.1"/>
