@@ -2,9 +2,9 @@
 <manifest>
 
 <!-- remote -->
-<remote name="aslenofarid"
+<remote name="aslenofarid" 
 	fetch="https://github.com/aslenofarid"/>
-<remote name="stuff"
+<remote name="stuff" 
 	fetch="https://github.com/AslenoLineageStuff"/>
 
 <!-- tree -->
