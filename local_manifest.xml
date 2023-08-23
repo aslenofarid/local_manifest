@@ -6,9 +6,9 @@
         fetch="https://github.com/aslenofarid"/>
 
 <!-- tree -->
-<project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="wip"/>
-<project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="wip"/>
-<project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="wip"/>
+<project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="lineage-20"/>
+<project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="lineage-20"/>
+<project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="lineage-20"/>
 <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="aslenofarid" revision="lineage-19.1"/>
 
 </manifest>
