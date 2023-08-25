@@ -16,7 +16,7 @@
 <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="lineage-20"/>
 <project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="lineage-20"/>
 <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="aslenofarid" revision="lineage-20"/>
-<project path="prebuilts/clang/host/linux-x86/clang-r487747" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="crdroid-gitlab" />
+<project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="crdroid-gitlab" />
 
 <!-- Remove project -->
 <remove-project name="LineageOS/android_build"/>
