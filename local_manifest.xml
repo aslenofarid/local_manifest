@@ -6,7 +6,7 @@
         fetch="https://github.com/aslenofarid"/>
 <remote name="stuff" 
         fetch="https://github.com/AslenoLineageStuff"/>
-<remote name"clang" 
+<remote name="clang" 
         fetch="https://gitlab.com/crdroidandroid"/>
         
 <!-- Tree -->
