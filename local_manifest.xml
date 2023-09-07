@@ -24,12 +24,12 @@
 <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
 
 <remove-project name="platform/vendor/qcom-opensource/usb" />
-<project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="stuff" clone-depth="1" revision="topaz" >
+<project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="stuff" clone-depth="1" revision="topaz" />
  <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
 </project>
 
 <remove-project name="AOSPA/android_vendor_aospa" />
-<project path="vendor/aospa" name="android_vendor_aospa" remote="stuff" clone-depth="1" revision="topaz" >
+<project path="vendor/aospa" name="android_vendor_aospa" remote="stuff" clone-depth="1" revision="topaz" />
  <linkfile src="build.sh" dest="rom-build.sh" />
 </project>
         
