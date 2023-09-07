@@ -39,8 +39,9 @@
 <project path="external/tinyxml" name="external_tinyxml" remote="stuff" clone-depth="1" revision="topaz" />
 
 <remove-project name="AOSPA/android_build_soong" />
-<project path="build/soong" name="android_build_soong" remote="stuff" revision="topaz" clone-depth="1" />
+        <project path="build/soong" name="android_build_soong" remote="stuff" revision="topaz" clone-depth="1" />
  <linkfile src="root.bp" dest="Android.bp" />
  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 </project>
+
 </manifest>
