@@ -19,6 +19,7 @@
 <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="stuff" clone-depth="1" revision="topaz-legacy-um" />
 
 <!-- Syn HALs -->
+<remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
 <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="hardware_qcom_audio" remote="hals" clone-depth="1" revision="tokui" />
 <project path="hardware/qcom/display" name="hardware_qcom_display" remote="hals" clone-depth="1" revision="test" />
 <project path="hardware/qcom/media" name="hardware_qcom_media" remote="hals" clone-depth="1" revision="test" /> -->
