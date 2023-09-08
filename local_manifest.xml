@@ -7,7 +7,10 @@
 
 <remote name="stuff" 
         fetch="https://github.com/asleno-AOSPA"/>
-        
+
+<remote name="hals"
+        fetch="https://github.com/Project404-android-asus-sdm660"/>
+
 <!-- Tree -->
 <project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="topaz"/>
 <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="topaz"/>
@@ -16,12 +19,9 @@
 <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="stuff" clone-depth="1" revision="topaz-legacy-um" />
 
 <!-- Syn HALs -->
-<!--- <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="hardware_qcom_audio" remote="stuff" clone-depth="1" revision="topaz-8998" />
-<project path="hardware/qcom/display" name="hardware_qcom_display" remote="stuff" clone-depth="1" revision="topaz-8998" />
-  <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-product.mk" src="config/display-product.mk"/>
-  <linkfile dest="vendor/qcom/defs/board-defs/vendor/display-board.mk" src="config/display-board.mk"/>
-<project path="hardware/qcom/media" name="hardware_qcom_media" remote="stuff" clone-depth="1" revision="topaz-8998" /> -->
-<remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
+<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="hardware_qcom_audio" remote="hals" clone-depth="1" revision="tokui" />
+<project path="hardware/qcom/display" name="hardware_qcom_display" remote="hals" clone-depth="1" revision="test" />
+<project path="hardware/qcom/media" name="hardware_qcom_media" remote="hals" clone-depth="1" revision="test" /> -->
 
 <remove-project name="platform/vendor/qcom-opensource/usb" />
 <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="stuff" clone-depth="1" revision="topaz" >
