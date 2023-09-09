@@ -18,11 +18,11 @@
 <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="aslenofarid" revision="lineage-20"/>
 <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="stuff" clone-depth="1" revision="topaz-legacy-um" />
 
-<!-- Syn HALs
+<!-- Syn HALs -->
 <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
-<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="hardware_qcom_audio" remote="hals" clone-depth="1" revision="tokui" />
-<project path="hardware/qcom/display" name="hardware_qcom_display" remote="hals" clone-depth="1" revision="test" />
-<project path="hardware/qcom/media" name="hardware_qcom_media" remote="hals" clone-depth="1" revision="test" /> -->
+<project path="vendor/qcom/opensource/audio-hal/primary-hal" name=" vendor_qcom_opensource_audio-hal_primary-hal" remote="hals" clone-depth="1" revision="tokui" />
+<project path="hardware/qcom/display" name="hardware_qcom_display" remote="hals" clone-depth="1" revision="tokui" />
+<project path="hardware/qcom/media" name="hardware_qcom_media" remote="hals" clone-depth="1" revision="tokui" />
 
 <remove-project name="platform/vendor/qcom-opensource/usb" />
 <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="stuff" clone-depth="1" revision="topaz" >
