@@ -19,7 +19,6 @@
 <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="hals" revision="tokui" />
 
 <!-- Syn HALs -->
-<remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
 <project path="vendor/qcom/opensource/audio-hal/primary-hal" name=" vendor_qcom_opensource_audio-hal_primary-hal" remote="hals" revision="tokui" />
 <project path="hardware/qcom/display" name="hardware_qcom_display" remote="hals" revision="tokui" />
 <project path="vendor/qcom-opensource/display-commonsys" name="android_vendor_qcom-opensource_display-commonsys" remote="hals" revision="tokui"/>
