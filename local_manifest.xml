@@ -16,26 +16,23 @@
 <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="topaz"/>
 <project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="topaz"/>
 <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="aslenofarid" revision="lineage-20"/>
-<project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="hals" clone-depth="1" revision="tokui" />
+<project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="hals" revision="tokui" />
 
 <!-- Syn HALs -->
 <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
-<project path="vendor/qcom/opensource/audio-hal/primary-hal" name=" vendor_qcom_opensource_audio-hal_primary-hal" remote="hals" clone-depth="1" revision="tokui" />
-<project path="hardware/qcom/display" name="hardware_qcom_display" remote="hals" clone-depth="1" revision="tokui" />
+<project path="vendor/qcom/opensource/audio-hal/primary-hal" name=" vendor_qcom_opensource_audio-hal_primary-hal" remote="hals" revision="tokui" />
+<project path="hardware/qcom/display" name="hardware_qcom_display" remote="hals" revision="tokui" />
 <project path="vendor/qcom-opensource/display-commonsys" name="android_vendor_qcom-opensource_display-commonsys" remote="hals" revision="tokui"/>
-<project path="hardware/qcom/media" name="hardware_qcom_media" remote="hals" clone-depth="1" revision="tokui" />
+<project path="hardware/qcom/media" name="hardware_qcom_media" remote="hals" revision="tokui" />
 
-<remove-project name="AOSPA/android_vendor_qcom-opensource_usb />
+<remove-project name="AOSPA/android_vendor_qcom-opensource_usb" />
 <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="hals" revision="tokui" >
   <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
 </project>
 
 <remove-project name="AOSPA/android_vendor_aospa" />
-<project path="vendor/aospa" name="android_vendor_aospa" remote="stuff" clone-depth="1" revision="topaz" >
+<project path="vendor/aospa" name="android_vendor_aospa" remote="stuff" revision="topaz" >
   <linkfile src="build.sh" dest="rom-build.sh" />
 </project>
-        
-<remove-project name="AOSPA/android_vendor_qcom-opensource_fm-commonsys" />
-<project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_commonsys_fm" remote="stuff" clone-depth="1" revision="topaz" />
-        
+
 </manifest>
