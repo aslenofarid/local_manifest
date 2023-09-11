@@ -37,4 +37,7 @@
   <linkfile src="build.sh" dest="rom-build.sh" />
 </project>
 
+<remove-project name="android_vendor_qcom-opensource_dataservices"/>
+<project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="stuff" revision="topaz"/>
+
 </manifest>
