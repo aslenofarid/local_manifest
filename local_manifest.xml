@@ -16,7 +16,7 @@
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 <project path="device/qcom/sepolicy-legacy" name=" device_qcom_sepolicy" remote="stuff" revision="topaz-legacy-um" />
 
-<!-- Syn HALs -->
+<!-- Sync HALs -->
 <project path="vendor/qcom/opensource/audio-hal/primary-hal" name=" vendor_qcom_opensource_audio-hal_primary-hal" remote="stuff" revision="topaz-8998" />
 <project path="hardware/qcom/display" name="hardware_qcom_display" remote="stuff" revision="topaz-8998" />
   <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-product.mk" src="config/display-product.mk"/>
