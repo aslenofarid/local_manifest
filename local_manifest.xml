@@ -8,12 +8,15 @@
 <remote name="stuff" 
         fetch="https://github.com/asleno-AOSPA"/>
 
+<remote name="clang"
+        fetch="https://gitlab.com/Amritorock"/>
+
 <!-- Tree -->
 <project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="topaz"/>
 <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="topaz"/>
 <project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="topaz"/>
 <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="aslenofarid" revision="lineage-20"/>
-<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="stuff" revision="topaz-legacy-um" />
 
 <!-- Sync HALs -->
