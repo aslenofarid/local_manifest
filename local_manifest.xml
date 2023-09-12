@@ -40,4 +40,7 @@
 <remove-project name="AOSPA/android_vendor_qcom-opensource_dataservices"/>
 <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="stuff" revision="topaz"/>
 
+<remove-project name="AOSPA/android_vendor_qcom-opensource_display-commonsys"/>
+<project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="stuff" revision="topaz"/>
+
 </manifest>
