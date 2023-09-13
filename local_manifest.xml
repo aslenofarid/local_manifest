@@ -9,7 +9,7 @@
 <project path="device/asus/X00TD" name="device_asus_X00TD" remote="stuff" revision="topaz"/>
 <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="stuff" revision="topaz"/>
 <project path="vendor/asus" name="proprietary_vendor_asus" remote="stuff" revision="topaz"/>
-<project path="kernel/msm-4.19" name="kernel_asus_sdm660" remote="stuff" revision="LA.UM.10.2.1.r1_4.19-stable"/>
+<project path="kernel/asus/sdm660" name="AtomXCLO-Devices/android_kernel_asus_sdm660" remote="github" revision="sc-v2"/>
 
 <remove-project name="AOSPA/android_vendor_aospa" />
 <project path="vendor/aospa" name="android_vendor_aospa" remote="stuff" revision="topaz" >
