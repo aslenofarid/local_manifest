@@ -2,45 +2,18 @@
 <manifest>
 
 <!-- Remote -->
-<remote name="aslenofarid" 
-        fetch="https://github.com/aslenofarid"/>
-
 <remote name="stuff" 
         fetch="https://github.com/asleno-AOSPA"/>
 
-<remote name="clang"
-        fetch="https://gitlab.com/Amritorock"/>
-
 <!-- Tree -->
-<project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="topaz"/>
-<project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="topaz"/>
-<project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="topaz"/>
-<project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="aslenofarid" revision="lineage-20"/>
-<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-<project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="stuff" revision="topaz-legacy-um" />
-
-<!-- Sync HALs -->
-<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="vendor_qcom_opensource_audio-hal_primary-hal" remote="stuff" revision="topaz-8998" />
-<project path="hardware/qcom/display" name="hardware_qcom_display" remote="stuff" revision="topaz-8998" />
-  <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-product.mk" src="config/display-product.mk"/>
-  <linkfile dest="vendor/qcom/defs/board-defs/vendor/display-board.mk" src="config/display-board.mk"/>
-<project path="hardware/qcom/media" name="hardware_qcom_media" remote="stuff" revision="topaz-8998" />
-<remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
-
-<remove-project name="AOSPA/android_vendor_qcom-opensource_usb" />
-<project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="stuff" revision="topaz" >
-  <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
-</project>
+<project path="device/asus/X00TD" name="device_asus_X00TD" remote="stuff" revision="topaz"/>
+<project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="stuff" revision="topaz"/>
+<project path="vendor/asus" name="proprietary_vendor_asus" remote="stuff" revision="topaz"/>
+<project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="stuff" revision="LA.UM.10.2.1.r1_4.19-stable"/>
 
 <remove-project name="AOSPA/android_vendor_aospa" />
 <project path="vendor/aospa" name="android_vendor_aospa" remote="stuff" revision="topaz" >
   <linkfile src="build.sh" dest="rom-build.sh" />
 </project>
-
-<remove-project name="AOSPA/android_vendor_qcom-opensource_dataservices"/>
-<project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="stuff" revision="topaz"/>
-
-<remove-project name="AOSPA/android_vendor_qcom-opensource_display-commonsys"/>
-<project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="stuff" revision="topaz"/>
 
 </manifest>
