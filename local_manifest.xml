@@ -16,4 +16,19 @@
   <linkfile src="build.sh" dest="rom-build.sh" />
 </project>
 
+<project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="github" revision="topaz-SN100X-legacy">
+  <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc-vendor-product.mk" src="nfc_vendor_product.mk"/>
+</project>
+<project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="topaz-SN100X-legacy"/>
+	
+<project path="hardware/qcom/media" name="hardware_qcom_media" remote="stuff" revision="topaz-sdm660-4.19" />
+<project path="hardware/qcom/display" name="hardware_qcom_display" remote="stuff" revision="topaz-sdm660-4.19" />
+<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="vendor_qcom_opensource_audio-hal_primary-hal" remote="stuff" revision="topaz-sdm660-4.19" />
+<project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="stuff" revision="topaz-SMxx50" />
+	
+<project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="stuff" revision="topaz-sdm660-4.19" />
+
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
+<project path="prebuilts/clang-standalone" name="android_prebuilts_clang-standalone" remote="blobs-gitlab" revision="17" />
+        
 </manifest>
