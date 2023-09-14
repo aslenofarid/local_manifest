@@ -5,7 +5,7 @@
 <project path="device/asus/X00TD" name="asleno-AOSPA/device_asus_X00TD" remote="github" revision="topaz"/>
 <project path="device/asus/sdm660-common" name="asleno-AOSPA/device_asus_sdm660-common" remote="github" revision="topaz"/>
 <project path="vendor/asus" name="asleno-AOSPA/proprietary_vendor_asus" remote="github" revision="topaz"/>
-<project path="kernel/msm-4.19" name="AOSPA-X01BD/kernel_msm-4.19" remote="github" revision="LA.UM.10.2.1.r1_4.19-stable"/>
+<project path="kernel/msm-4.19" name="AOSPA-X01BD/kernel_msm-4.19" remote="github" revision="topaz"/>
 
 <remove-project name="AOSPA/android_vendor_aospa" />
 <project path="vendor/aospa" name="asleno-AOSPA/android_vendor_aospa" remote="github" revision="topaz" >
