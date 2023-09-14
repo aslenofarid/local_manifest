@@ -20,9 +20,9 @@
 <remove-project name="LineageOS/android_packages_apps_Settings"/>
 <remove-project name="LineageOS/android_packages_overlays_Lineage"/>
 <remove-project name="LineageOS/android_system_core"/>
-<remove-project name="LineageOS/android_vendor_lineage"/>
+<remove-project name="LineageOS/android_vendor_lineage"/> -->
 
-<!-- Project -->
+<!-- Project 
 <project path="build/make" name="android_build" revision="lineage-18.1" remote="stuff" groups="pdk">
   <copyfile src="core/root.mk" dest="Makefile" />
   <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
