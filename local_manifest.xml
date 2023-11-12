@@ -5,28 +5,22 @@
 <remote name="aslenofarid" 
         fetch="https://github.com/aslenofarid"/>
 
+<remote name="AnandSuresh02"
+        fetch="https://github.com/AnandSuresh02/android_kernel_asus_sdm660-4.19"/>
+
 <remote name="stuff" 
         fetch="https://github.com/AslenoLineageStuff"/>
         
 <!-- Tree -->
-<project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="lineage-20"/>
-<project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="lineage-20"/>
-<project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="lineage-20"/>
-<project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="aslenofarid" revision="lineage-20"/>
+<project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="4.19"/>
+<project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="4.19"/>
+<project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="4.19"/>
+<project path="kernel/asus/sdm660" name=" android_kernel_asus_sdm660-4.19" remote="AnandSuresh02" revision="thirteen"/>
 
 <!-- Remove project -->
-<remove-project name="LineageOS/android_build"/>
 <remove-project name="LineageOS/android_system_core"/>
 
 <!-- Project -->
-<project path="build/make" name="android_build" revision="lineage-20.0" remote="stuff" groups="pdk">
-  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
-  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
-  <linkfile src="core" dest="build/core"/>
-  <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
-  <linkfile src="target" dest="build/target"/>
-  <linkfile src="tools" dest="build/tools"/>
-</project>
 <project path="system/core" name="android_system_core" remote="stuff" revision="lineage-20.0"/>
         
 </manifest>
