@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Remote -->
-<remote name="aslenofarid" 
-        fetch="https://github.com/aslenofarid"/>
-
-<remote name="AnandSuresh02"
-        fetch="https://github.com/AnandSuresh02"/>
-
-<remote name="stuff" 
-        fetch="https://github.com/AslenoLineageStuff"/>
-        
-<!-- Tree -->
-<project path="device/asus/X00TD" name="device_asus_X00TD" remote="aslenofarid" revision="4.19"/>
-<project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="4.19"/>
-<project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="4.19"/>
-<project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-4.19" remote="AnandSuresh02" revision="thirteen"/>
+<project path="device/asus/X00TD" name="aslenofarid/device_asus_X00TD" remote="github" revision="4.19"/>
+<project path="device/asus/sdm660-common" name="aslenofarid/device_asus_sdm660-common" remote="github" revision="4.19"/>
+<project path="vendor/asus" name="aslenofarid/proprietary_vendor_asus" remote="github" revision="4.19"/>
+<project path="kernel/asus/sdm660" name="AnandSuresh02/android_kernel_asus_sdm660-4.19" remote="github" revision="thirteen"/>
 
 <!-- Remove project -->
 <remove-project name="LineageOS/android_system_core"/>
 
 <!-- Project -->
-<project path="system/core" name="android_system_core" remote="stuff" revision="lineage-20.0"/>
+<project path="system/core" name="AslenoLineageStuff/android_system_core" remote="github" revision="lineage-20.0"/>
         
 </manifest>
