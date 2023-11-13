@@ -6,7 +6,7 @@
         fetch="https://github.com/aslenofarid"/>
 
 <remote name="AnandSuresh02"
-        fetch="https://github.com/AnandSuresh02/android_kernel_asus_sdm660-4.19"/>
+        fetch="https://github.com/AnandSuresh02"/>
 
 <remote name="stuff" 
         fetch="https://github.com/AslenoLineageStuff"/>
