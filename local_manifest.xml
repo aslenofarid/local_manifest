@@ -9,7 +9,6 @@
 
 <!-- remove project -->
 <remove-project name="LineageOS/android_build"/>
-<remove-project name="LineageOS/android_frameworks_base"/>
 <remove-project name="LineageOS/android_hardware_qcom_audio"/>
 <remove-project name="LineageOS/android_packages_apps_Settings"/>
 <remove-project name="LineageOS/android_system_core"/>
@@ -26,7 +25,6 @@
 <linkfile src="tools" dest="build/tools"/>
 </project>
 
-<project path="frameworks/base" name="AslenoLineageStuff/android_frameworks_base" remote="github" revision="lineage-17.1"/>
 <project path="hardware/qcom-caf/msm8998/audio" name="AslenoLineageStuff/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-msm8998"/>
 <project path="packages/apps/Settings" name="AslenoLineageStuff/android_packages_apps_Settings" remote="github" revision="lineage-17.1"/>
 <project path="system/core" name="AslenoLineageStuff/android_system_core" remote="github" revision="lineage-17.1"/>
